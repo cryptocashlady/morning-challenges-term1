@@ -1,12 +1,11 @@
 #!/bin/bash
-echo `pwd`
-echo "git is `which git`"
+
 # Script to pull the morning challenge and merge to master
 # Pass the branch name as the first param, eg. ./get-morning-challenge.sh 07_fib_seq_01.rb
 echo "Getting morning challenge $1 ..."
 # Make sure you're on master branch
 echo "checking out master"
-echo "git checkout master"
+git checkout master
 # Sync master:
 echo "syncing master"
 git add . && git commit -m "sync master" && git push -f origin master
