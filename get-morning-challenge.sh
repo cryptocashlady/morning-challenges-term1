@@ -1,4 +1,4 @@
-. ./.git/config
+#!/bin/bash
 echo "git is `which git`"
 # Script to pull the morning challenge and merge to master
 # Pass the branch name as the first param, eg. ./get-morning-challenge.sh 07_fib_seq_01.rb
