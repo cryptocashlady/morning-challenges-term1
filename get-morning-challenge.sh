@@ -6,7 +6,7 @@ echo "git is `which git`"
 echo "Getting morning challenge $1 ..."
 # Make sure you're on master branch
 echo "checking out master"
-git checkout master
+echo "git checkout master"
 # Sync master:
 echo "syncing master"
 git add . && git commit -m "sync master" && git push -f origin master
