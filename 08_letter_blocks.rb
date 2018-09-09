@@ -40,3 +40,16 @@
 # Extension
 # Use the lots_of_words.txt file to test your code.
 # Now order the words that can be made by length.
+
+def fib_seq(num)
+     #if num < 2
+        #return [num]
+     #else
+        #fib_seq(num-1) + fib_seq(num-2)
+     #end
+   #end
+   #puts fib_seq(4)
+  
+   def divide (dividend,divisor)
+      quotient = dividend/divisor)
+   end 
