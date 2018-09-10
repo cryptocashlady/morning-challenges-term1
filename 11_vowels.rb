@@ -14,6 +14,9 @@
 # ruby tests/04_vowels_test.rb
 #
 
-def vowels (string)
-  # Your code here
+def count_vowels
+  count_vowels = ("You are a champion")
+  count_vowels = ["o", "a", "i", "e", "u"]
+    puts count_vowels
+ # Your code here
 end
