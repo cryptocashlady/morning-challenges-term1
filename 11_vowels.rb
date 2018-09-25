@@ -27,8 +27,10 @@ end
 #
 
 def count_vowels
-  count_vowels = ("You are a champion")
-  count_vowels = ["o", "a", "i", "e", "u"]
-    puts count_vowels
+  string.scan(/[aeiou]/i)
+end
+  # # count_vowels = ("You are a champion")
+  # count_vowels = ["o", "a", "i", "e", "u"]
+  #   puts count_vowels
  # Your code here
 end
